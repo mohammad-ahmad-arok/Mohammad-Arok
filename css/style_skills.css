@@ -1,0 +1,268 @@
+/* in add a new skill you shoud coby this and edate a number */
+/* section.skills circle#sk_1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+    -webkit-animation: animsk_1 2s linear forwards;
+}
+
+
+@keyframes animsk_1 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+/* stroke-dashoffset: calc(472 - (472 *98) /100);
+    }
+
+} */
+/* end coby in hear */
+section.skills circle#sk_1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_1 2s linear forwards;
+    -webkit-animation: animsk_1 2s linear forwards;
+}
+
+
+@keyframes animsk_1 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 *98) /100);
+    }
+
+}
+
+section.skills circle#sk_2 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_2 2s linear forwards;
+    -webkit-animation: animsk_2 2s linear forwards;
+}
+
+
+@keyframes animsk_2 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 98) /100);
+    }
+
+}
+
+section.skills circle#sk_3 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_3 2s linear forwards;
+    -webkit-animation: animsk_3 2s linear forwards;
+}
+
+
+@keyframes animsk_3 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 75) /100);
+    }
+
+}
+
+section.skills circle#sk_4 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_4 2s linear forwards;
+    -webkit-animation: animsk_4 2s linear forwards;
+}
+
+
+@keyframes animsk_4 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 85) /100);
+    }
+
+}
+
+section.skills circle#sk_5 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_5 2s linear forwards;
+    -webkit-animation: animsk_5 2s linear forwards;
+}
+
+
+@keyframes animsk_5 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 40) /100);
+    }
+
+}
+
+section.skills circle#sk_6 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_6 2s linear forwards;
+    -webkit-animation: animsk_6 2s linear forwards;
+}
+
+
+@keyframes animsk_6 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 60) /100);
+    }
+
+}
+
+section.skills circle#sk_7 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_7 2s linear forwards;
+    -webkit-animation: animsk_7 2s linear forwards;
+}
+
+
+@keyframes animsk_7 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 75) /100);
+    }
+
+}
+
+section.skills circle#sk_8 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_8 2s linear forwards;
+    -webkit-animation: animsk_8 2s linear forwards;
+}
+
+
+@keyframes animsk_8 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 55) /100);
+    }
+
+}
+
+section.skills circle#sk_9 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_9 2s linear forwards;
+    -webkit-animation: animsk_9 2s linear forwards;
+}
+
+
+@keyframes animsk_9 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 55) /100);
+    }
+
+}
+
+/* for disin  */
+/* ===========embortant============= stroke: url(#GradientColor_2);============ */
+section.skills circle#sk_10 {
+    fill: none;
+    stroke: url(#GradientColor_2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_10 2s linear forwards;
+    -webkit-animation: animsk_10 2s linear forwards;
+}
+
+
+@keyframes animsk_10 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 85) /100);
+    }
+
+}
+
+section.skills circle#sk_11 {
+    fill: none;
+    stroke: url(#GradientColor_2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_11 2s linear forwards;
+    -webkit-animation: animsk_11 2s linear forwards;
+}
+
+
+@keyframes animsk_11 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 60) /100);
+    }
+
+}
+
+section.skills circle#sk_12 {
+    fill: none;
+    stroke: url(#GradientColor_2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_12 2s linear forwards;
+    -webkit-animation: animsk_12 2s linear forwards;
+}
+
+
+@keyframes animsk_12 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 50) /100);
+    }
+
+}
+
+section.skills circle#sk_13 {
+    fill: none;
+    stroke: url(#GradientColor_2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_13 2s linear forwards;
+    -webkit-animation: animsk_13 2s linear forwards;
+}
+
+
+@keyframes animsk_13 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 * 40) /100);
+    }
+
+}

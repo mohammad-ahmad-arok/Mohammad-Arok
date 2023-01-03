@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_skills.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Mohammad Arok</title>
+  </head>
+  <body class="">
+    <div id="loding"></div> 
+    <section class="home container" id="home">
+      <div class="row">
+        <div class="col img-my-box col-lg-6 col-sm-12">
+          <div class="back-cercal">
+            <div id="one">
+              <img src="img/visual-studio.png" alt="" />
+            </div>
+            <div id="tow">
+              <img src="img/github-2.png" alt="" />
+            </div>
+            <div id="thre">
+              <img src="img/html3-1.png" alt="" />
+            </div>
+          </div>
+          <img src="img/my.png" alt="" id="my" />
+        </div>
+        <div class="col text-box col-lg-6 col-sm-12">
+          <h1>Mohammad Arok</h1>
+          <div class="conten-text-box">
+            <h1>I'm a <span class="auto-type"></span></h1>
+          </div>
+          <button class="btn-cv" id="btn-cv" onclick="active_cv_btn()">
+            <i class="bx bxs-file" id="btn-cv"></i>
+            <p id="btn-cv">My CV</p>
+            <i
+              class="bx bxs-down-arrow"
+              style="font-size: 15px"
+              id="btn-cv"
+            ></i>
+          </button>
+          <div class="active-btn-cv" id="active-btn-cv">
+            <span>
+              <i class="bx bx-window-alt"></i>
+              <a href="CV/index.html">browse</a>
+            </span>
+            <hr />
+            <span>
+              <i class="bx bxs-download"></i>
+              <a href="#" download="/CV/Mohammad_arok.pdf">download</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="nav container" id="navbar">
+      <div class="contener">
+        <ul id="btn_nav_conten" class="navectionbar">
+          <li class="li">
+            <span id=""> 
+              <a href="#home" class="btn_nav active"><img src="img/macOS Home logo.png" alt="" /></a>
+            </span>
+          </li>
+          <li class="li">
+            <span id="">
+              <a href="#services" class="btn_nav "> <img src="img/Setting.png" alt="" /></a>
+            </span>
+          </li>
+          <li class="li">
+            <span id="">
+              <a href="#skills" class="btn_nav "> <img src="img/Coding Folder.png" alt="" /></a>
+            </span>
+          </li>
+          <li class="li">
+            <span id="">
+              <a href="#jop" class="btn_nav "><img src="img/Business Analysis.png" alt="" /></a>
+            </span>
+          </li>
+          <li class="li">
+            <span id="">
+              <a href="#contact" class="btn_nav "><img src="img/Contact Us.png" alt="" /></a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="services container" id="services">
+      <div class="header">
+        <img src="img/Setting.png" alt="" />
+        <h1>Services</h1>
+      </div>
+      <div class="container">
+        <img
+          src="img/Archive.png"
+          alt=""
+          class="Services_background"
+          id="back_services_img1"
+        />
+        <img
+          src="img/Explode Shape.png"
+          alt=""
+          class="Services_background"
+          id="back_services_img2"
+        />
+        <img
+          src="img/Up Arrow.png"
+          alt=""
+          class="Services_background"
+          id="back_services_img3"
+        />
+        <img
+          src="img/Wavy Visual Abstract.png"
+          alt=""
+          class="Services_background"
+          id="back_services_img4"
+        />
+        <img
+          src="img/Explode Shape2.png"
+          alt=""
+          class="Services_background"
+          id="back_services_img5"
+        />
+        <div class="row">
+          <div class="col col-lg-5 col-sm-10">
+            <div class="box-conten">
+              <h4>Web</h4>
+              <p>
+                The ability to develop the front end of your site in the best
+                way and as quickly as possible
+              </p>
+              <a href="#jop">see more</a>
+              <img src="img/undraw_static_website_re_x70h (1).svg" alt="" />
+            </div>
+          </div>
+          <div class="col col-lg-5 col-sm-10">
+            <div class="box-conten">
+              <h4>disign</h4>
+              <p>
+                Able to design websites and mobile applications in the most
+                attractive and calm forms
+              </p>
+              <a href="#jop">see more</a>
+              <img src="img/undraw_slider_re_ch7w (1).svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills container" id="skills">
+      <div class="header">
+        <img src="img/Coding Folder.png" alt="" />
+        <h1>Skills</h1>
+      </div>
+      <div class="con-skil software">
+        <h2 class="head">software</h2>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Html <br />
+                <span>98%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_1" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Css <br />
+                <span>98%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_2" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Js <br />
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_3" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Botstrap <br />
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_4" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                React <br />
+                <span>40%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_5" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                php <br />
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_6" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                My Sql <br />
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_7" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                java <br />
+                <span>55%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_8" />
+          </svg>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                C# <br />
+                <span>55%</span>
+              </div>
+            </div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="10%" stop-color="#00C4F0" />
+                <stop offset="100%" stop-color="#6CF6FF" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" id="sk_9" />
+          </svg>
+        </div>
+      </div>
+      <div class="con-skil graphic_Design">
+        <h2 class="head">Design</h2>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Figma <br />
+                <span>85%</span>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="160px"
+              height="160px"
+            >
+              <defs>
+                <linearGradient id="GradientColor_2">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="80"
+                cy="80"
+                r="70"
+                stroke-linecap="round"
+                id="sk_10"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                XD <br />
+                <span>60%</span>
+              </div>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="160px"
+              height="160px"
+            >
+              <defs>
+                <linearGradient id="GradientColor_2">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="80"
+                cy="80"
+                r="70"
+                stroke-linecap="round"
+                id="sk_11"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Ps <br />
+                <span>50%</span>
+              </div>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="160px"
+              height="160px"
+            >
+              <defs>
+                <linearGradient id="GradientColor_2">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="80"
+                cy="80"
+                r="70"
+                stroke-linecap="round"
+                id="sk_12"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="skill_stily">
+          <div class="outer">
+            <div class="inner">
+              <div id="number">
+                Ai <br />
+                <span>40%</span>
+              </div>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="160px"
+              height="160px"
+            >
+              <defs>
+                <linearGradient id="GradientColor_2">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="80"
+                cy="80"
+                r="70"
+                stroke-linecap="round"
+                id="sk_13"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jop container" id="jop">
+      <div class="header">
+        <img src="img/Business Analysis.png" alt="" />
+        <h1>Jop</h1>
+      </div>
+
+      <div class="nav-jop">
+        <button class="btn" onclick="disblay_all()">all</button>
+        <button class="btn" onclick="disblay_web()">web</button>
+        <button class="btn" onclick="disblay_desgin()">Design</button>
+      </div>
+      <div class="myjop" id="myjop">
+        <div class="box web" id="my_jop_web">
+          <img src="img/Annotation 2022-12-20 161123.png" alt="" />
+          <a href="/jop/boot/index.html"><i class="bx bx-link-alt"></i></a>
+        </div>
+        <div class="box web" id="my_jop_web">
+          <img src="img/coffe.jpg" alt="" />
+          <a href="jop/coffe/index.html"><i class="bx bx-link-alt"></i></a>
+        </div>
+        <div class="box web" id="my_jop_web">
+          <img src="img/login.jpg" alt="" />
+          <a href="jop/login&sigin/index.html"><i class="bx bx-link-alt"></i></a>
+        </div>
+        <div class="box web" id="my_jop_web">
+          <img src="img/Annotation 2022-12-20 161513.png" alt="" />
+          <a href="/jop/food/index.html"><i class="bx bx-link-alt"></i></a>
+        </div>
+        <span class="box desgin" id="my_jop_desgin">
+          <img src="img/MacBook Pro 14_ - 1.png" alt="" />
+          <a href="https://www.figma.com/proto/4QzqVbJJxjF5YX7CVBOffj/Untitled?page-id=279%3A246&node-id=146%3A173&viewport=80%2C-23%2C0.06&scaling=min-zoom"><i class="bx bx-link-alt"></i></a>
+        </span>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <img
+        src="img/Instagram marketing.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img1"
+      />
+      <img
+        src="img/Social media like emoji.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img2"
+      />
+      <img
+        src="img/Social media facebook.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img3"
+      />
+      <img
+        src="img/Social media love emoji.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img4"
+      />
+      <img
+        src="img/Chat.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img5"
+      />
+      <div class="cercal"></div>
+      <img
+        src="img/mohammad-arok_Blue_background_programmer_cartoon_three-dimensio_8e01e41f-f9b2-40e1-8142-54d6a852f8e4-1 1.png"
+        alt=""
+        class="contact_bac"
+        id="back_contact_img6"
+      />
+      <h3>
+        2023 all rights resrved <br />
+        mohammad arok
+      </h3>
+      <div class="header">
+        <img src="img/Contact Us.png" alt="" />
+        <h1>Contact</h1>
+      </div>
+      <div class="container">
+        <a href=""><img src="img/github.png" alt="" id="con-a-1" /></a>
+        <a href=""><img src="img/instagram.png" alt="" id="con-a-2" /></a>
+        <a href=""><img src="img/linkedin.png" alt="" id="con-a-3" /></a>
+        <a href=""><img src="img/messenger.png" alt="" id="con-a-4" /></a>
+        <a href=""><img src="img/Whatsapp.png" alt="" id="con-a-5" /></a>
+        <a href=""><img src="img/Twitter.png" alt="" id="con-a-6" /></a>
+      </div>
+    </section>
+
+    <!-- tiping animation lip-js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
